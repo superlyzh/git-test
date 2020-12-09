@@ -14,6 +14,7 @@ public class Account implements Serializable {
     private String name;
     private Double money;
 
+
     public Integer getId() {
         return id;
     }
