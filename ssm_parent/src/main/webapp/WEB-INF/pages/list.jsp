@@ -15,7 +15,7 @@
 <body>
         <h3>查询所有的账户</h3>
 
-    <c:forEach items="${item}" var="account">
+    <c:forEach items="${list}" var="account">
         ${account.name}
         ${account.money}
     </c:forEach>
